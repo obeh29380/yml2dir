@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "yaml2dir"
 version = "0.1.0"
@@ -8,3 +12,6 @@ keywords = ["yaml", "yml", "directory", "converter"]
 dependencies = [
   "pyyaml",
 ]
+
+[tool.setuptools]
+py-modules = ["y2d"]
