@@ -1,0 +1,6 @@
+root: .output
+children:
+  - name: child1_file.txt
+    type: file
+    content: |
+      This is child1_file.txt

@@ -1,0 +1,10 @@
+[project]
+name = "yaml2dir"
+version = "0.1.0"
+description = "Convert YAML files to directory structure"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["yaml", "yml", "directory", "converter"]
+dependencies = [
+  "pyyaml",
+]
